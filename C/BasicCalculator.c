@@ -39,6 +39,10 @@ int main(){
                 result = n1 / n2;
             }
         break;
+
+        default:
+        printf("Opção inválida. Escolha uma das opções válidas (a, s, m, d).\n");
+        return 1; // Saia do programa com um código de erro
     }
     printf("O resultado é %.2f ", result);
     return 0;
