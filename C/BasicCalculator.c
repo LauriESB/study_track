@@ -40,6 +40,6 @@ int main(){
             }
         break;
     }
-    printf("O resultado é %.2lf ", result);
+    printf("O resultado é %.2f ", result);
     return 0;
 }
